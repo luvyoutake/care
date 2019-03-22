@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Activities.SMSMessenger"
+    android:theme="@style/AppTheme"
+    android:layout_marginTop="65dp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="REMIND LOVE ONES"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="18dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/tv_MobileNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mobile Number :"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="18dp"
+        android:textColor="@color/black"
+        android:layout_below="@+id/textView"
+        />
+
+    <EditText
+        android:id="@+id/inputNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="18dp"
+        android:textColor="@color/black"
+        android:layout_below="@+id/tv_MobileNumber"
+        />
+
+    <TextView
+        android:id="@+id/tv_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Medicine :"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="18dp"
+        android:textColor="@color/black"
+        android:layout_below="@+id/inputNumber"
+        />
+
+    <EditText
+        android:id="@+id/inputMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="18dp"
+        android:textColor="@color/black"
+        android:layout_below="@+id/tv_message" />
+
+
+    <Button android:id="@+id/sendButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:clickable="true"
+        android:background="@drawable/rounded_button"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="@android:color/white"
+        android:layout_below="@+id/inputMessage"
+        android:layout_marginBottom="10dp"/>
+
+</RelativeLayout>

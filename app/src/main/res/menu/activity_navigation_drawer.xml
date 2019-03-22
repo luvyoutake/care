@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view" >
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_icon_silhouette"
+            android:title="Home" />
+    </group>
+
+    <item android:title="Profile" >
+        <menu>
+            <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_profile"
+                android:icon="@drawable/ic_avatar"
+                android:title="Personal Information" />
+            <item
+                android:id="@+id/nav_history"
+                android:icon="@drawable/ic_medical_history"
+                android:title="Medical History" />
+            <item
+                android:id="@+id/nav_reminder"
+                android:icon="@drawable/ic_medical_reminder"
+                android:title="Reminder History" />
+            <item
+                android:id="@+id/nav_sub"
+                android:icon="@drawable/ic_love_one"
+                android:title="Sub Profile" />
+            </group>
+        </menu>
+    </item>
+
+    <group
+        android:id="@+id/menu_bottom"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_about"
+            android:title="About" />
+        <item
+            android:id="@+id/nav_log"
+            android:icon="@drawable/ic_logout"
+            android:title="Log Out" />
+    </group>
+
+</menu>

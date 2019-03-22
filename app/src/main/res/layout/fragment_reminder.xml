@@ -1,0 +1,34 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".FragmentReminder">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:id="@+id/reminder_tv"
+        android:textSize="20dp"
+        android:text="No Reminders to show, Add a reminder.."
+        android:gravity="center"
+        />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        app:srcCompat="@drawable/ic_add_white"
+        tools:ignore="VectorDrawableCompat" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:id="@+id/rem_lv"
+        android:layout_height="match_parent"
+        />
+
+</FrameLayout>

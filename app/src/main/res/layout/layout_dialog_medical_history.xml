@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADD MEDICAL HISTORY"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="18dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/tv_Date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Date :"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="16dp"
+        android:textColor="@color/black"
+        android:layout_below="@+id/textView"
+        />
+
+    <EditText
+        android:id="@+id/dateEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="18dp"
+        android:textColor="@color/black"
+        android:layout_below="@+id/tv_Date"
+        android:editable="false"
+        android:focusableInTouchMode="false"
+        />
+
+    <TextView
+        android:id="@+id/tv_Where"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hospital / Clinic :"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="16dp"
+        android:textColor="@color/black"
+        android:layout_below="@+id/dateEditText"
+        />
+
+    <EditText
+        android:id="@+id/hosEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="18dp"
+        android:textColor="@color/black"
+        android:layout_below="@+id/tv_Where" />
+
+    <TextView
+        android:id="@+id/tv_DoctorName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Doctor's name :"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="16dp"
+        android:textColor="@color/black"
+        android:layout_below="@+id/hosEditText"
+        />
+
+    <EditText
+        android:id="@+id/doctorEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="18dp"
+        android:textColor="@color/black"
+        android:layout_below="@+id/tv_DoctorName"
+        />
+
+    <TextView
+        android:id="@+id/tv_Diagnosis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Diagnosis :"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="16dp"
+        android:textColor="@color/black"
+        android:layout_below="@+id/doctorEditText"
+        />
+
+    <EditText
+        android:id="@+id/diagnosisEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="18dp"
+        android:textColor="@color/black"
+        android:layout_below="@+id/tv_Diagnosis" />
+
+    <TextView
+        android:id="@+id/tv_PrescriptionMedicine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Prescripted medicine :"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="16dp"
+        android:textColor="@color/black"
+        android:layout_below="@+id/diagnosisEditText"
+        />
+
+    <EditText
+        android:id="@+id/prescriptedEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="18dp"
+        android:textColor="@color/black"
+        android:layout_below="@+id/tv_PrescriptionMedicine"
+        />
+
+    <TextView
+        android:id="@+id/tv_OtherAdvice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Other advice :"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="16dp"
+        android:textColor="@color/black"
+        android:layout_below="@+id/prescriptedEditText"
+        />
+
+    <EditText
+        android:id="@+id/adviceEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="18dp"
+        android:textColor="@color/black"
+        android:layout_below="@+id/tv_OtherAdvice" />
+
+    <TextView
+        android:id="@+id/tv_FollowUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Follow-up check-up :"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="16dp"
+        android:textColor="@color/black"
+        android:layout_below="@+id/adviceEditText"
+        />
+
+    <EditText
+        android:id="@+id/followupEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="18dp"
+        android:textColor="@color/black"
+        android:layout_below="@+id/tv_FollowUp"
+        android:editable="false"
+        android:focusableInTouchMode="false"
+        />
+
+    <Button android:id="@+id/saveBtn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:clickable="true"
+        android:background="@drawable/rounded_button"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="@android:color/white"
+        android:layout_below="@+id/followupEditText"
+        android:layout_marginBottom="10dp"/>
+
+</RelativeLayout>

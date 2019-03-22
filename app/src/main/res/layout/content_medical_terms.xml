@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.MedicalTermsActivity"
+    android:theme="@style/AppTheme" >
+
+    <!--<RelativeLayout
+        android:id="@+id/myLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        >
+
+        <EditText
+            android:id="@+id/search_box_input"
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:hint="Search"
+            android:textColorHint="@color/lightblack"
+            android:layout_marginLeft="10dp"
+            android:textSize="18dp" />
+
+        <ImageButton
+            android:id="@+id/search_button"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/search_box_input"
+            android:layout_toRightOf="@+id/search_box_input"
+            android:src="@drawable/ic_search_black" />
+
+    </RelativeLayout> -->
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/lst_item"
+        android:scrollbars="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="65dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp" />
+
+    <!--<com.trendyol.bubblescrollbarlib.BubbleScrollBar-->
+        <!--android:id="@+id/bubble_scroll"-->
+        <!--android:layout_gravity="end"-->
+        <!--android:orientation="vertical"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--app:bubbleBackground="@drawable/my_scroll"-->
+        <!--app:thumbBackground="@color/colorAccent"-->
+        <!--app:scrollbarBackground="@color/colorPrimaryDark"-->
+        <!--app:bubbleTextSize="8sp"-->
+        <!--app:bubbleMargin="4dp"-->
+        <!--android:elevation="6dp"-->
+        <!--app:bubbleHeight="50dp"-->
+        <!--android:minWidth="50dp"-->
+        <!--app:bubbleTextColor="@android:color/white"-->
+        <!--app:bubblePadding="4dp"-->
+        <!--&gt;-->
+
+    <!--</com.trendyol.bubblescrollbarlib.BubbleScrollBar>-->
+
+</RelativeLayout>

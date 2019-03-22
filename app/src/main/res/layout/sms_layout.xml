@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="REMIND LOVE ONES"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="18dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        />
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        >
+
+
+    </Spinner>
+
+    <TextView
+        android:id="@+id/tv_MobileNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mobile Number :"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="16dp"
+        android:textColor="@color/black"
+        android:layout_below="@+id/spinner"
+        />
+
+    <EditText
+        android:id="@+id/inputNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="18dp"
+        android:textColor="@color/black"
+        android:layout_below="@+id/tv_MobileNumber"
+        />
+
+    <TextView
+        android:id="@+id/tv_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Medicine :"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="16dp"
+        android:textColor="@color/black"
+        android:layout_below="@+id/inputNumber"
+        />
+
+    <EditText
+        android:id="@+id/inputMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="18dp"
+        android:textColor="@color/black"
+        android:layout_below="@+id/tv_message" />
+
+    <TextView
+        android:id="@+id/tv_Time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Time :"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="16dp"
+        android:textColor="@color/black"
+        android:layout_below="@+id/inputMessage"
+        />
+
+    <EditText
+        android:id="@+id/inputTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="18dp"
+        android:textColor="@color/black"
+        android:layout_below="@+id/tv_Time"
+        android:editable="false"
+        android:focusableInTouchMode="false"/>
+
+    <TextView
+        android:id="@+id/tv_Date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Date :"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="16dp"
+        android:textColor="@color/black"
+        android:layout_below="@+id/inputTime"
+        />
+
+    <EditText
+        android:id="@+id/inputDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="18dp"
+        android:textColor="@color/black"
+        android:layout_below="@+id/tv_Date"
+        android:editable="false"
+        android:focusableInTouchMode="false"/>
+
+
+    <Button android:id="@+id/sendButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Send"
+        android:clickable="true"
+        android:background="@drawable/rounded_button"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="@android:color/white"
+        android:layout_below="@+id/inputDate"
+        android:layout_marginBottom="10dp"/>
+
+
+
+</RelativeLayout>

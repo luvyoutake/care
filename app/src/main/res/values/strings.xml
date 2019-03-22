@@ -1,0 +1,94 @@
+<resources>
+    <string name="app_name">Take Care</string>
+    <string name="text_not_member">Don\'t have an account?</string>
+    <string name="email">Email</string>
+    <string name="pw">Password</string>
+    <string name="cpw">Confirm password</string>
+    <string name="login">LOGIN</string>
+    <string name="signup">SIGN UP</string>
+    <string name="register">Create a new account</string>
+    <string name="sp">Show password</string>
+    <string name="fp">Forgot password?</string>
+    <string name="firstname">First name</string>
+    <string name="lastname">Last name</string>
+    <string name="cn">Phone number ex. 9283832770</string>
+    <string name="member">Already have an existing account?</string>
+    <string name="error_message_username">Wrong Username or Password</string>
+    <string name="error_valid_username_password">Wrong Username or Password</string>
+    <string name="error_message_email">Enter username</string>
+    <string name="error_message_password">Enter password</string>
+    <string name="success_message">Registered successfully</string>
+    <string name="error_email_exists">Username already exists</string>
+    <string name="error_valid_email">Username does not exists</string>
+    <string name="error_message_name">Enter name</string>
+    <string name="error_password_match">Password did not match</string>
+    <string name="error_message_contact">Enter contact number</string>
+    <string name="error_valid_email_password">Wrong email or password</string>
+
+    <string name="input_error_firstname">First name required</string>
+    <string name="input_error_lastname">Last name required</string>
+    <string name="input_error_email">Email required</string>
+    <string name="input_error_password">Password required</string>
+    <string name="input_error_confirmpassword">Password don\'t match</string>
+    <string name="input_error_phone">Phone number required</string>
+    <string name="input_error_password_length">Password should be atleast 6 characters long</string>
+    <string name="input_error_phone_invalid">Enter a valid phone number</string>
+    <string name="registration_success">Registered Successfully</string>
+    <string name="input_error_email_invalid">Enter a valid email</string>
+    <string name="title_activity_navigation">NavigationActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="title_activity_health_tips">Health Tips</string>
+    <string name="title_activity_profile">User Profile</string>
+    <string name="title_activity_medical_terms">Medical Terminology</string>
+    <string name="title_activity_common_disease">Common Disease</string>
+    <string name="title_activity_medicine">Medicine</string>
+    <string name="title_activity_dictionary">Dictionary</string>
+    <string name="title_activity_about">About</string>
+    <string name="title_activity_edit_profile">Edit Profile</string>
+    <string name="title_activity_on_click_med_terms">OnClickMedTermsActivity</string>
+    <string name="title_activity_click_med_term">ClickMedTermActivity</string>
+    <string name="title_activity_add_medical_history">Add Medical History</string>
+    <string name="title_activity_medical_history">Medical History</string>
+    <string name="title_activity_med_history_detail">Medical History</string>
+    <string name="title_activity_way_doc">WAY Doc</string>
+    <string name="title_activity_practo">WAY Doc</string>
+    <string name="title_activity_reminder">Reminder</string>
+    <string name="title_activity_sub_profile">Sub-Profile</string>
+    <string name="title_activity_edit_sub_profile">Sub-Profile</string>
+
+    <string name="herbal">Herbal</string>
+    <string name="branded">Branded</string>
+    <string name="generic">Generic</string>
+
+    <string name="about">TAKE CARE was developed by (4) students of Bachelor of Science in Information Technology from Cavite State University, Don Severino Delas Alas Campus  Indang, Cavite in partial fulfilment for their course. They were name READ. Stands for: Christine Marie S. (R)ivadeniera, Dencel (E)ncinas, Cristhea D. (A)placador, Johnica Claire R. (D)e Ocampo. The application was developed since 2018. </string>
+    <string name="about1">This Application provides different features that you may explore:</string>
+
+    <string name="txtMed">MEDuler</string>
+    <string name="meduler">It is use to set a schedule for your medication intake and save it to your personal reminder history. MEDuler also notifies you if your medicine on hand will be soon out of stock. You can also send text messages to your added SubProfile the application will send text message according to the phone number you indicated during the addition of your Sub-profile or love ones.</string>
+
+    <string name="healthDic">Health Dictionary</string>
+    <string name="medText">TakeCare provides three different dictionaries namely: Medicine Dictionary, Medical Terminologies Dictionary as well as Common Disease Dictionary. The Medicine Dictionary is separated from three categories: Generic, Branded and Herbal Medicines while the Medical Terminologies and Common Disease Dictionary provides a list of common terminologies. </string>
+
+    <string name="txtWay">W.A.Y. Doc</string>
+    <string name="wayText">W.A.Y Doc means Where Are You Doctor? It provides a list of doctors from Cavite, it allows you to view their schedule and medication fee if available. The list of doctors listed came from Practo.com site.</string>
+
+    <string name="txtHt">Health Tips</string>
+    <string name="healthText">Health and Nutrition tips to help you maintain and improve your health</string>
+
+
+    <string name="text">TAKECARE is a mobile application that helps users regarding with their health care management. This application will consistenly remind you regarding with your medication intake according to what you scheduled.</string>
+    <string name="disclaimer">Your use of any aspect of the application is a your own risk. You must consult wit health care providers and make your medical decision based on their advice.TakeCare is not providing any medical advice of any kind. Any actions you take base on the content, notifications provided by the application are taken at your sole risk. You should always check any information provided through the service to ensure its accuracy.</string>
+    <string name="support">We do not warrant or guarantee that the Service will be compatible with your android phone. Information wil be transmited over a medium that will beyond our control and jurisdiction; multiple factors especially network availability may affect the operation of the Application. </string>
+
+    <string name="delete_dialog_msg">Delete this Medical History?</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+
+</resources>

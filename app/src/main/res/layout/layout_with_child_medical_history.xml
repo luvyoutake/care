@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <RelativeLayout
+        android:id="@+id/button"
+        android:gravity="center"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_width="0dp"
+        android:layout_height="0dp">
+        <View
+            android:background="@drawable/ic_keyboard_arrow_up_black_24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible">
+        </View>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/txt_item_text"
+        android:padding="12dp"
+        android:text="Date"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        />
+
+    <TextView
+        android:id="@+id/txt_item_diagnosis"
+        android:padding="12dp"
+        android:text="Diagnosis"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:layout_toEndOf="@+id/txt_item_text"
+        android:layout_toRightOf="@+id/txt_item_text" />
+
+    <com.github.aakira.expandablelayout.ExpandableLinearLayout
+        android:id="@+id/expandableLayout"
+        android:layout_below="@+id/txt_item_text"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:ael_expanded= "false"
+        app:ael_interpolator= "fastOutSlowIn"
+        android:background="@color/grey">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Date"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:paddingBottom="5dp"
+            android:layout_marginTop="12dp"
+            />
+
+        <TextView
+            android:id="@+id/txt_item_date"
+            android:paddingBottom="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="This is child item"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/lightblack" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hospital/Clinic"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:paddingBottom="10dp"/>
+
+        <TextView
+            android:id="@+id/txt_child_placeofconsultation"
+            android:paddingBottom="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="This is child item"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/lightblack" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Diagnosis"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:paddingBottom="10dp"/>
+
+        <TextView
+            android:id="@+id/txt_child_diagnosis"
+            android:paddingBottom="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="This is child item"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/lightblack" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Prescripted Medicine"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:paddingBottom="10dp"/>
+
+        <TextView
+            android:id="@+id/txt_child_prescription"
+            android:paddingBottom="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="This is child item"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/lightblack" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Other Advice"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:paddingBottom="10dp"/>
+
+        <TextView
+            android:id="@+id/txt_child_otheradvice"
+            android:paddingBottom="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="This is child item"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            />
+    </com.github.aakira.expandablelayout.ExpandableLinearLayout>
+
+</RelativeLayout>

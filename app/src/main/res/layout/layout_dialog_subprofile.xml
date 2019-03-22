@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADD SUB-PROFILE"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="18dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/tv_Firstname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Firstname :"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="16dp"
+        android:textColor="@color/black"
+        android:layout_below="@+id/textView"
+        />
+
+    <EditText
+        android:id="@+id/firstnameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="18dp"
+        android:textColor="@color/black"
+        android:layout_below="@+id/tv_Firstname"
+        />
+
+    <TextView
+        android:id="@+id/tv_Lastname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lastname :"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="16dp"
+        android:textColor="@color/black"
+        android:layout_below="@+id/firstnameEditText"
+        />
+
+    <EditText
+        android:id="@+id/lastnameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="18dp"
+        android:textColor="@color/black"
+        android:layout_below="@+id/tv_Lastname" />
+
+    <TextView
+        android:id="@+id/tv_PhoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Phone number :"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="16dp"
+        android:textColor="@color/black"
+        android:layout_below="@+id/lastnameEditText"
+        />
+
+    <EditText
+        android:id="@+id/phoneEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="18dp"
+        android:textColor="@color/black"
+        android:layout_below="@+id/tv_PhoneNumber"
+        android:inputType="number"
+        android:maxLength="10"
+        android:hint="ex. 639161629290"
+        />
+
+    <Button android:id="@+id/saveBtn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:clickable="true"
+        android:background="@drawable/rounded_button"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="@android:color/white"
+        android:layout_below="@+id/phoneEditText"
+        android:layout_marginBottom="10dp"
+        />
+
+</RelativeLayout>

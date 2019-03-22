@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <android.support.v7.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        card_view:cardElevation="5dp"
+        card_view:cardCornerRadius="10dp"
+        android:layout_margin="10dp"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+    <RelativeLayout
+        android:id="@+id/button"
+        android:gravity="center"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_width="0dp"
+        android:layout_height="0dp">
+        <View
+            android:background="@drawable/ic_keyboard_arrow_up_black_24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible">
+        </View>
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/txt_item_text"
+        android:padding="20dp"
+        android:text="This item with a child"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:fontFamily="sans-serif-black" />
+
+    <com.github.aakira.expandablelayout.ExpandableLinearLayout
+        android:id="@+id/expandableLayout"
+        android:layout_below="@+id/txt_item_text"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:ael_expanded= "false"
+        app:ael_interpolator= "fastOutSlowIn" >
+
+        <TextView
+            android:id="@+id/txt_child_item_text"
+            android:paddingBottom="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="This is child item"
+            android:textColor="@color/lightblack"
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            />
+
+    </com.github.aakira.expandablelayout.ExpandableLinearLayout>
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>
